@@ -2,10 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Title</title>
   </head>
   <body>
-    <h1>To Do List</h1>
+    <header>
+      <h1>To Do List</h1>
+    </header>
     <div class="create-task">
       <p>Task Name</p>
       <input class="taskName" type="text" placeholder="Enter Name Here" />
@@ -26,6 +30,12 @@
 
       <p>Create Task</p>
       <button class="createButton">Create</button>
+    </div>
+
+    <div class="tasks-container">
+      <div class="taskList">
+        <!-- Task list items will be dynamically added here -->
+      </div>
     </div>
 
     <script src="main.js"></script>
