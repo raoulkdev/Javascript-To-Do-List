@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap);
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: radial-gradient(#7e96ad, #a4bad377);
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100vh;
+    margin: 0;
+}
+
+
+header{
+    padding: 20px;
+    width: max-content;
+    height: max-content;
+    border-radius: 20px;
+    text-align: center;
+    align-self: center;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.create-task{
+    padding: 20px;
+    background-color: #ffffff34;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: max-content;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    height: 10%;
+    width: 70%;
+    border-radius: 30px;
+    transition: 0.9s ease;
+}
+
+.create-task:hover{
+    background-color: #ffffff6e;
+}
+
+.create-task p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.create-task select{
+    width: 100%;
+    height: 100%;
+    outline: 1px solid #61676e44;
+    background-color: transparent;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-self: center;
+    transition: 0.7s ease;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.create-task input{
+    width: 100%;
+    height: 100%;
+    outline: 1px solid #61676e44;
+    background-color: transparent;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-self: center;
+    transition: 0.7s ease;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.create-task button{
+    width: 100%;
+    height: 100%;
+    outline: 1px solid #61676e44;
+    background-color: transparent;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-self: center;
+    transition: 0.7s ease;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.create-task select:hover{
+    background-color: #ffffff6e;
+}
+
+.create-task input:hover{
+    background-color: #ffffff6e;
+}
+
+.create-task button:hover{
+    background-color: #ff000042;
+}
+
+.tasks-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.taskList {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 70%;
+    padding: 20px;
+    border-radius: 30px;
+    transition: 0.9s ease;
+}
+
+
+.taskItem{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff34;
+    gap: 5px;
+    width: max-content;
+    height: max-content;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    transition: 0.9s ease;
+}
+
+.taskItem:hover{
+    background-color: #ffffff6e;
+}
+
+.taskItem button{
+    padding: 10px;
+    width: 100%;
+    height: max-content;
+    outline: 1px solid #61676e44;
+    background-color: transparent;
+    border-radius: 30px;
+    justify-self: center;
+    transition: 0.7s ease;
+    font-size: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.taskItem button:hover{
+    background-color: #ff000042;
+}
+
+.taskItem li{
+    font-size: 18px;
+    font-weight: bold;
+}
